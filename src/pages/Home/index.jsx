@@ -1,5 +1,7 @@
+import { Container } from "../../assets/styles/style"
+
 function Home(){
-    return <h1>Home Page</h1>
+    return <Container><h1>Home Page</h1></Container>
 }
 
 export default Home
