@@ -1,7 +1,7 @@
 import { PrimaryButton } from "../Link"
 
-function Link(){
-    return <PrimaryButton>Click Me</PrimaryButton>
+function Link({texto}){
+    return <PrimaryButton>{texto}</PrimaryButton>
 }
 
 export default Link
